@@ -1,0 +1,327 @@
+Initialized native services in: /Users/nurmuhammad/.gradle/native
+Initialized jansi services in: /Users/nurmuhammad/.gradle/native
+Found daemon DaemonInfo{pid=51912, address=[70a10f19-4b1a-49e5-ab6b-b4d70fee2199 port:51820, addresses:[/127.0.0.1]], state=Idle, lastBusy=1759406182227, context=DefaultDaemonContext[uid=bbfdf56a-37a0-450f-90bd-bb75f4bf5250,javaHome=/Users/nurmuhammad/Applications/Android Studio Narwhal 2025.1.1 Patch 1.app/Contents/jbr/Contents/Home,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=/Users/nurmuhammad/.gradle/daemon,pid=51912,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx3072M,-Dfile.encoding=UTF-8,-Duser.country=UZ,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/nurmuhammad/Library/Java/JavaVirtualMachines/corretto-17.0.13/Contents/Home (no JDK specified, using current Java home), daemonOpts=[-Xmx3072M, -Dfile.encoding=UTF-8, -Duser.country=UZ, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=bbfdf56a-37a0-450f-90bd-bb75f4bf5250,javaHome=/Users/nurmuhammad/Applications/Android Studio Narwhal 2025.1.1 Patch 1.app/Contents/jbr/Contents/Home,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=/Users/nurmuhammad/.gradle/daemon,pid=51912,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx3072M,-Dfile.encoding=UTF-8,-Duser.country=UZ,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 52065). The daemon log file: /Users/nurmuhammad/.gradle/daemon/8.14.3/daemon-52065.out.log
+Starting 6th build in daemon [uptime: 30 mins 23.217 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 3 GiB]
+Using 11 worker leases.
+Now considering [/Users/nurmuhammad/StudioProjects/WincoWeb] as hierarchies to watch
+Starting process 'command 'uname''. Working directory: /Users/nurmuhammad/StudioProjects/WincoWeb Command: uname -m
+Successfully started process 'command 'uname''
+Starting process 'command 'uname''. Working directory: /Users/nurmuhammad/StudioProjects/WincoWeb Command: uname -m
+Successfully started process 'command 'uname''
+Starting process 'command 'uname''. Working directory: /Users/nurmuhammad/StudioProjects/WincoWeb Command: uname -m
+Successfully started process 'command 'uname''
+Reusing configuration cache.
+Now considering [/Users/nurmuhammad/StudioProjects/WincoWeb] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Using local directory build cache for the root build (location = /Users/nurmuhammad/.gradle/caches/build-cache-1, remove unused entries = after 7 days).
+Tasks to be executed: [task ':kotlinWasmKotlinNpmCachesSetup', task ':kotlinWasmNodeJsSetup', task ':kotlinWasmRestoreYarnLock', task ':kotlinWasmYarnSetup', task ':composeApp:wasmJsPackageJson', task ':composeApp:wasmJsTestPackageJson', task ':composeApp:wasmJsPublicPackageJson', task ':composeApp:wasmJsTestPublicPackageJson', task ':kotlinWasmPackageJsonUmbrella', task ':wasmRootPackageJson', task ':kotlinWasmNpmInstall', task ':kotlinWasmStoreYarnLock', task ':kotlinWasmToolingSetup', task ':composeApp:wasmJsResolveResourcesFromDependencies', task ':composeApp:convertXmlValueResourcesForCommonMain', task ':composeApp:copyNonXmlValueResourcesForCommonMain', task ':composeApp:prepareComposeResourcesTaskForCommonMain', task ':composeApp:convertXmlValueResourcesForWasmJsMain', task ':composeApp:copyNonXmlValueResourcesForWasmJsMain', task ':composeApp:prepareComposeResourcesTaskForWasmJsMain', task ':composeApp:convertXmlValueResourcesForWebMain', task ':composeApp:copyNonXmlValueResourcesForWebMain', task ':composeApp:prepareComposeResourcesTaskForWebMain', task ':composeApp:assembleWasmJsMainResources', task ':composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources', task ':composeApp:wasmJsAggregateResources', task ':composeApp:wasmJsProcessResources', task ':composeApp:kmpPartiallyResolvedDependenciesChecker', task ':composeApp:checkKotlinGradlePluginConfigurationErrors', task ':composeApp:generateResourceAccessorsForCommonMain', task ':composeApp:generateResourceAccessorsForWasmJsMain', task ':composeApp:generateResourceAccessorsForWebMain', task ':composeApp:generateActualResourceCollectorsForWasmJsMain', task ':composeApp:generateComposeResClass', task ':composeApp:generateExpectResourceCollectorsForCommonMain', task ':composeApp:compileKotlinWasmJs', task ':composeApp:wasmJsMainClasses', task ':composeApp:compileProductionExecutableKotlinWasmJs', task ':composeApp:kotlinWasmBinaryenSetup', task ':composeApp:compileProductionExecutableKotlinWasmJsOptimize', task ':composeApp:unpackSkikoWasmRuntime', task ':composeApp:processSkikoRuntimeForKWasm', task ':composeApp:wasmJsProductionExecutableCompileSync', task ':composeApp:wasmJsBrowserProductionWebpack', task ':composeApp:wasmJsBrowserDistribution']
+Tasks that were excluded: []
+Resolve mutations for :kotlinWasmKotlinNpmCachesSetup (Thread[Execution worker,5,main]) started.
+Resolve mutations for :kotlinWasmNodeJsSetup (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :kotlinWasmRestoreYarnLock (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :composeApp:wasmJsResolveResourcesFromDependencies (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :composeApp:convertXmlValueResourcesForCommonMain (Thread[Execution worker Thread 5,5,main]) started.
+:kotlinWasmKotlinNpmCachesSetup (Thread[Execution worker,5,main]) started.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:wasmJsResolveResourcesFromDependencies (Thread[Execution worker Thread 6,5,main]) started.
+:kotlinWasmNodeJsSetup (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForWasmJsMain (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :composeApp:convertXmlValueResourcesForWasmJsMain (Thread[Execution worker Thread 8,5,main]) started.
+:kotlinWasmRestoreYarnLock (Thread[Execution worker Thread 3,5,main]) started.
+:composeApp:copyNonXmlValueResourcesForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :composeApp:convertXmlValueResourcesForWebMain (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForWebMain (Thread[Execution worker Thread 9,5,main]) started.
+:composeApp:convertXmlValueResourcesForWasmJsMain (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :composeApp:kmpPartiallyResolvedDependenciesChecker (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:convertXmlValueResourcesForWebMain (Thread[included builds,5,main]) started.
+:composeApp:kmpPartiallyResolvedDependenciesChecker (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :composeApp:generateComposeResClass (Thread[Execution worker Thread 10,5,main]) started.
+Resolve mutations for :composeApp:generateExpectResourceCollectorsForCommonMain (Thread[Execution worker Thread 9,5,main]) started.
+Resolve mutations for :composeApp:kotlinWasmBinaryenSetup (Thread[Execution worker Thread 4,5,main]) started.
+:composeApp:generateExpectResourceCollectorsForCommonMain (Thread[Execution worker Thread 9,5,main]) started.
+:composeApp:generateComposeResClass (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:kotlinWasmBinaryenSetup (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :composeApp:convertXmlValueResourcesForWasmJsMain NO-SOURCE
+file or directory '/Users/nurmuhammad/StudioProjects/WincoWeb/composeApp/build/generated/compose/resourceGenerator/preparedResources/wasmJsMain/composeResources', not found
+Skipping task ':composeApp:convertXmlValueResourcesForWasmJsMain' as it has no source files and no previous output files.
+:composeApp:copyNonXmlValueResourcesForWasmJsMain (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+Caching disabled for task ':composeApp:generateExpectResourceCollectorsForCommonMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateExpectResourceCollectorsForCommonMain' as it is up-to-date.
+
+> Task :kotlinWasmRestoreYarnLock UP-TO-DATE
+Caching disabled for task ':kotlinWasmRestoreYarnLock' because:
+  Caching has been disabled for the task
+Skipping task ':kotlinWasmRestoreYarnLock' as it is up-to-date.
+Resolve mutations for :composeApp:unpackSkikoWasmRuntime (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :composeApp:convertXmlValueResourcesForWebMain NO-SOURCE
+Skipping task ':composeApp:convertXmlValueResourcesForWebMain' as it has no source files and no previous output files.
+:composeApp:copyNonXmlValueResourcesForWebMain (Thread[included builds,5,main]) started.
+:composeApp:unpackSkikoWasmRuntime (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+Caching disabled for task ':composeApp:generateComposeResClass' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateComposeResClass' as it is up-to-date.
+
+> Task :kotlinWasmKotlinNpmCachesSetup
+Caching disabled for task ':kotlinWasmKotlinNpmCachesSetup' because:
+  Caching has been disabled for the task
+Task ':kotlinWasmKotlinNpmCachesSetup' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Build 34ca5148-22c0-4432-9dec-562e34d487b9 is started
+Resolve mutations for :composeApp:wasmJsPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:kotlinWasmBinaryenSetup UP-TO-DATE
+Caching disabled for task ':composeApp:kotlinWasmBinaryenSetup' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:kotlinWasmBinaryenSetup' as it is up-to-date.
+
+> Task :composeApp:copyNonXmlValueResourcesForWasmJsMain NO-SOURCE
+file or directory '/Users/nurmuhammad/StudioProjects/WincoWeb/composeApp/build/generated/compose/resourceGenerator/preparedResources/wasmJsMain/composeResources', not found
+Skipping task ':composeApp:copyNonXmlValueResourcesForWasmJsMain' as it has no source files and no previous output files.
+
+> Task :composeApp:wasmJsResolveResourcesFromDependencies UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsResolveResourcesFromDependencies' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsResolveResourcesFromDependencies' as it is up-to-date.
+
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+file or directory '/Users/nurmuhammad/StudioProjects/WincoWeb/composeApp/build/generated/compose/resourceGenerator/preparedResources/commonMain/composeResources', not found
+Skipping task ':composeApp:copyNonXmlValueResourcesForCommonMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForWasmJsMain (Thread[Execution worker Thread 8,5,main]) started.
+:composeApp:wasmJsPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+:composeApp:convertXmlValueResourcesForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+Caching disabled for task ':composeApp:kmpPartiallyResolvedDependenciesChecker' because:
+  This task is not intended for execution
+Task ':composeApp:kmpPartiallyResolvedDependenciesChecker' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Execution stopped by some action with message: null
+Resolve mutations for :composeApp:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 5,5,main]) started.
+:composeApp:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :composeApp:unpackSkikoWasmRuntime UP-TO-DATE
+Caching disabled for task ':composeApp:unpackSkikoWasmRuntime' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:unpackSkikoWasmRuntime' as it is up-to-date.
+Resolve mutations for :composeApp:processSkikoRuntimeForKWasm (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':composeApp:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+file or directory '/Users/nurmuhammad/StudioProjects/WincoWeb/composeApp/build/generated/compose/resourceGenerator/preparedResources/commonMain/composeResources', not found
+Skipping task ':composeApp:convertXmlValueResourcesForCommonMain' as it has no source files and no previous output files.
+:composeApp:processSkikoRuntimeForKWasm (Thread[Execution worker Thread 9,5,main]) started.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:prepareComposeResourcesTaskForWasmJsMain (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :composeApp:copyNonXmlValueResourcesForWebMain UP-TO-DATE
+Caching disabled for task ':composeApp:copyNonXmlValueResourcesForWebMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:copyNonXmlValueResourcesForWebMain' as it is up-to-date.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForWebMain (Thread[included builds,5,main]) started.
+
+> Task :composeApp:processSkikoRuntimeForKWasm UP-TO-DATE
+Caching disabled for task ':composeApp:processSkikoRuntimeForKWasm' because:
+  Not worth caching
+Skipping task ':composeApp:processSkikoRuntimeForKWasm' as it is up-to-date.
+:composeApp:prepareComposeResourcesTaskForWebMain (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForWasmJsMain NO-SOURCE
+Skipping task ':composeApp:prepareComposeResourcesTaskForWasmJsMain' as it has no source files and no previous output files.
+:composeApp:prepareComposeResourcesTaskForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :composeApp:wasmJsPackageJson UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsPackageJson' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsPackageJson' as it is up-to-date.
+Resolve mutations for :composeApp:generateResourceAccessorsForWasmJsMain (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :composeApp:wasmJsTestPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :composeApp:wasmJsPublicPackageJson (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+Skipping task ':composeApp:prepareComposeResourcesTaskForCommonMain' as it has no source files and no previous output files.
+:composeApp:generateResourceAccessorsForWasmJsMain (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :composeApp:generateResourceAccessorsForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:wasmJsTestPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+:composeApp:generateResourceAccessorsForCommonMain (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:wasmJsPublicPackageJson (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForWebMain UP-TO-DATE
+Caching disabled for task ':composeApp:prepareComposeResourcesTaskForWebMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:prepareComposeResourcesTaskForWebMain' as it is up-to-date.
+Resolve mutations for :composeApp:assembleWasmJsMainResources (Thread[Execution worker Thread 9,5,main]) started.
+Resolve mutations for :composeApp:generateResourceAccessorsForWebMain (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:generateResourceAccessorsForWasmJsMain NO-SOURCE
+Skipping task ':composeApp:generateResourceAccessorsForWasmJsMain' as it has no source files and no previous output files.
+:composeApp:assembleWasmJsMainResources (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:generateResourceAccessorsForCommonMain NO-SOURCE
+Skipping task ':composeApp:generateResourceAccessorsForCommonMain' as it has no source files and no previous output files.
+:composeApp:generateResourceAccessorsForWebMain (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :composeApp:wasmJsTestPackageJson UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsTestPackageJson' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsTestPackageJson' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsTestPublicPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+:composeApp:wasmJsTestPublicPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:assembleWasmJsMainResources UP-TO-DATE
+Caching disabled for task ':composeApp:assembleWasmJsMainResources' because:
+  There is no logic, just copy files
+Skipping task ':composeApp:assembleWasmJsMainResources' as it is up-to-date.
+
+> Task :composeApp:generateResourceAccessorsForWebMain UP-TO-DATE
+Caching disabled for task ':composeApp:generateResourceAccessorsForWebMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateResourceAccessorsForWebMain' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources (Thread[Execution worker Thread 10,5,main]) started.
+Resolve mutations for :composeApp:generateActualResourceCollectorsForWasmJsMain (Thread[Execution worker Thread 4,5,main]) started.
+:composeApp:generateActualResourceCollectorsForWasmJsMain (Thread[Execution worker Thread 4,5,main]) started.
+:composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :composeApp:generateActualResourceCollectorsForWasmJsMain UP-TO-DATE
+Caching disabled for task ':composeApp:generateActualResourceCollectorsForWasmJsMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateActualResourceCollectorsForWasmJsMain' as it is up-to-date.
+Resolve mutations for :composeApp:compileKotlinWasmJs (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsAggregateResources (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:wasmJsAggregateResources (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:compileKotlinWasmJs (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:wasmJsPublicPackageJson UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsPublicPackageJson' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsPublicPackageJson' as it is up-to-date.
+
+> Task :composeApp:wasmJsAggregateResources UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsAggregateResources' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsAggregateResources' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsProcessResources (Thread[Execution worker Thread 7,5,main]) started.
+:composeApp:wasmJsProcessResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :composeApp:wasmJsProcessResources UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsProcessResources' because:
+  Not worth caching
+Skipping task ':composeApp:wasmJsProcessResources' as it is up-to-date.
+
+> Task :composeApp:wasmJsTestPublicPackageJson UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsTestPublicPackageJson' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsTestPublicPackageJson' as it is up-to-date.
+Resolve mutations for :kotlinWasmPackageJsonUmbrella (Thread[Execution worker Thread 3,5,main]) started.
+:kotlinWasmPackageJsonUmbrella (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :kotlinWasmPackageJsonUmbrella UP-TO-DATE
+Skipping task ':kotlinWasmPackageJsonUmbrella' as it has no actions.
+Resolve mutations for :wasmRootPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+:wasmRootPackageJson (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :wasmRootPackageJson UP-TO-DATE
+Caching disabled for task ':wasmRootPackageJson' because:
+  Caching has been disabled for the task
+Skipping task ':wasmRootPackageJson' as it is up-to-date.
+
+> Task :composeApp:compileKotlinWasmJs UP-TO-DATE
+Build cache key for task ':composeApp:compileKotlinWasmJs' is 3834a03e95e90379b776c5f0847a794d
+Skipping task ':composeApp:compileKotlinWasmJs' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsMainClasses (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:wasmJsMainClasses (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:wasmJsMainClasses UP-TO-DATE
+Skipping task ':composeApp:wasmJsMainClasses' as it has no actions.
+Resolve mutations for :composeApp:compileProductionExecutableKotlinWasmJs (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:compileProductionExecutableKotlinWasmJs (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:compileProductionExecutableKotlinWasmJs UP-TO-DATE
+Build cache key for task ':composeApp:compileProductionExecutableKotlinWasmJs' is 002e9039284509c1890ba332798e0a32
+Skipping task ':composeApp:compileProductionExecutableKotlinWasmJs' as it is up-to-date.
+Resolve mutations for :composeApp:compileProductionExecutableKotlinWasmJsOptimize (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:compileProductionExecutableKotlinWasmJsOptimize (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:compileProductionExecutableKotlinWasmJsOptimize UP-TO-DATE
+Caching disabled for task ':composeApp:compileProductionExecutableKotlinWasmJsOptimize' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:compileProductionExecutableKotlinWasmJsOptimize' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsProductionExecutableCompileSync (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:wasmJsProductionExecutableCompileSync (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:wasmJsProductionExecutableCompileSync UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsProductionExecutableCompileSync' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:wasmJsProductionExecutableCompileSync' as it is up-to-date.
+
+> Task :kotlinWasmNodeJsSetup UP-TO-DATE
+Caching disabled for task ':kotlinWasmNodeJsSetup' because:
+  Caching has been disabled for the task
+Skipping task ':kotlinWasmNodeJsSetup' as it is up-to-date.
+Resolve mutations for :kotlinWasmYarnSetup (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :kotlinWasmToolingSetup (Thread[Execution worker Thread 10,5,main]) started.
+:kotlinWasmYarnSetup (Thread[Execution worker Thread 2,5,main]) started.
+:kotlinWasmToolingSetup (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :kotlinWasmYarnSetup UP-TO-DATE
+Caching disabled for task ':kotlinWasmYarnSetup' because:
+  Caching has been disabled for the task
+Skipping task ':kotlinWasmYarnSetup' as it is up-to-date.
+Resolve mutations for :kotlinWasmNpmInstall (Thread[Execution worker Thread 2,5,main]) started.
+:kotlinWasmNpmInstall (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :kotlinWasmNpmInstall UP-TO-DATE
+Caching disabled for task ':kotlinWasmNpmInstall' because:
+  Caching has been disabled for the task
+Skipping task ':kotlinWasmNpmInstall' as it is up-to-date.
+Resolve mutations for :kotlinWasmStoreYarnLock (Thread[Execution worker Thread 2,5,main]) started.
+:kotlinWasmStoreYarnLock (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :kotlinWasmStoreYarnLock UP-TO-DATE
+Caching disabled for task ':kotlinWasmStoreYarnLock' because:
+  Caching has been disabled for the task
+Skipping task ':kotlinWasmStoreYarnLock' as it is up-to-date.
+
+> Task :kotlinWasmToolingSetup UP-TO-DATE
+Caching disabled for task ':kotlinWasmToolingSetup' because:
+  Caching has been disabled for the task
+Skipping task ':kotlinWasmToolingSetup' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsBrowserProductionWebpack (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:wasmJsBrowserProductionWebpack (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:wasmJsBrowserProductionWebpack UP-TO-DATE
+Build cache key for task ':composeApp:wasmJsBrowserProductionWebpack' is 33e40ab7838c98ab6b5f4bb6f995d990
+Skipping task ':composeApp:wasmJsBrowserProductionWebpack' as it is up-to-date.
+Resolve mutations for :composeApp:wasmJsBrowserDistribution (Thread[Execution worker Thread 10,5,main]) started.
+:composeApp:wasmJsBrowserDistribution (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:wasmJsBrowserDistribution UP-TO-DATE
+Caching disabled for task ':composeApp:wasmJsBrowserDistribution' because:
+  Not worth caching
+Skipping task ':composeApp:wasmJsBrowserDistribution' as it is up-to-date.
+Build 34ca5148-22c0-4432-9dec-562e34d487b9 is closed
+
+BUILD SUCCESSFUL in 500ms
+33 actionable tasks: 2 executed, 31 up-to-date
+Watched directory hierarchies: [/Users/nurmuhammad/StudioProjects/WincoWeb]
+Configuration cache entry reused.
