@@ -36,6 +36,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.shadow.Shadow
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.conamobile.wincoweb.components.DefaultBlue
@@ -270,10 +271,12 @@ fun App() {
                         contentAlignment = Alignment.Center
                     ) {
                         Text(
+                            modifier = Modifier.padding(horizontal = 14.dp),
                             text = "Winco - Best Solution for your business",
                             fontSize = 30.sp,
                             color = Color.Black,
-                            fontWeight = FontWeight.Bold
+                            fontWeight = FontWeight.Bold,
+                            textAlign = TextAlign.Center
                         )
                     }
                 }
