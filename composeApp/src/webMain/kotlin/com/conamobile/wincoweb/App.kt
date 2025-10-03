@@ -236,6 +236,103 @@ fun App() {
                     }
                 }
             }
+        } else {
+            LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                item {
+                    Spacer(Modifier.height(20.dp))
+                }
+                item {
+                    Image(
+                        modifier = Modifier.padding(4.dp).size(70.dp),
+                        painter = painterResource(Res.drawable.winco_logo),
+                        contentDescription = "Winco Logo"
+                    )
+                }
+                item {
+                    Spacer(Modifier.height(20.dp))
+                }
+                item {
+                    Image(
+                        modifier = Modifier.fillMaxWidth(),
+                        painter = painterResource(Res.drawable.cover_image),
+                        contentDescription = null,
+                    )
+                }
+                item {
+                    Spacer(Modifier.height(20.dp))
+                }
+                item {
+                    Box(
+                        modifier = Modifier.fillMaxWidth(),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            text = "Winco - Best Solution for your business",
+                            fontSize = 30.sp,
+                            color = Color.Black,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+                }
+                item {
+                    Spacer(Modifier.height(10.dp))
+                }
+                item {
+                    Box(
+                        modifier = Modifier
+                            .padding(6.dp)
+                            .clip(RoundedCornerShape(13.dp))
+                            .background(Color(0xFFF2F3F5))
+                            .clickable {
+                                when (getPlatformType()) {
+                                    PlatformType.ANDROID -> {
+                                        uriHandler.openUri("https://play.google.com/store/apps/details?id=com.conamobile.romchi2&hl=en")
+                                    }
+
+                                    PlatformType.IOS -> {
+                                        uriHandler.openUri("https://apps.apple.com/uz/app/romchi/id6742743588")
+                                    }
+
+                                    else -> {
+                                        uriHandler.openUri("https://t.me/romchi_rasmiy")
+                                    }
+                                }
+                            },
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(12.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                modifier = Modifier.padding(horizontal = 6.dp),
+                                text = "Download App",
+                                fontSize = 14.sp,
+                                color = DefaultBlue,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+                    }
+                }
+                item {
+                    Spacer(Modifier.height(20.dp))
+                }
+                item {
+                    Box(
+                        modifier = Modifier.fillMaxWidth(),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            text = "Soon more information will be here...",
+                            fontSize = 20.sp,
+                            color = Color.Black,
+                        )
+                    }
+                }
+            }
         }
     }
 
